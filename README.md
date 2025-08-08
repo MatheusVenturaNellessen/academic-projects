@@ -22,3 +22,7 @@
 <div align="center">
     <a href="mailto:ti.matheus.v.n@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </div>
+
+<h2>Autoria e Licença</h2>
+
+<p>Esse projeto foi desenvolvido por <a href="https://www.linkedin.com/in/dev-matheusvn/">Matheus V. Nellessen</a> e está protegido sob a licença MIT. Para ver mais detalhes, visualize o <a href="./LICENSE">documento</a>.</p>
