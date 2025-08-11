@@ -16,14 +16,31 @@ const styles = StyleSheet.create({
   container: {
     flex: 1, // ocupa todo o conteúdo da tela disponível
     backgroundColor: "#fefefe", // fundo off-white
-    flexDirection: "row", // por padrão → column
-
+    flexDirection: "row",
+    // Eixo principal
+    // Por padrão → column
+    justifyContent: "center",
+    // Alinhamento do eixo principal:
+    // center               → centro do eixo
+    // flex-end             → final do eixo
+    // flex-start (default) → início do eixo
+    // space-between        → espaçamento entre os elementos apenas
+    // space-around         → espaçamento desigual entre os elementos + pontas 
+    // space-evenly         → espaçamento igualitário entre os elementos + pontas
+    alignItems: "center",
+    // Alinhamento do eixo secundário:
+    // flex-start (default) → início do eixo
+    // flex-start           → final do eixo
+    // strech               → alonga o(s) elemento(s)
+    // baseline             → igual ao elemento Pai
+    // center               → no centro do eixo
+    
   },
 
   box1: {
-    height: 50, width: 50,
-    backgroundColor: "#f00",
-    margin: 5,
+    height: 50, width: 50, // implementa altura e largura das Views
+    backgroundColor: "#f00", // cor de fundo das Views
+    margin: 5, // implementa espaçamento de 5px
   },
 
   box2: {
