@@ -34,7 +34,6 @@ const styles = StyleSheet.create({
     // strech               → alonga o(s) elemento(s)
     // baseline             → igual ao elemento Pai
     // center               → no centro do eixo
-    
   },
 
   box1: {
