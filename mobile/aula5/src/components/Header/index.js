@@ -4,13 +4,13 @@ import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 
 import Feather from '@expo/vector-icons/Feather';
 
-const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight : 64
+// const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight : 64
 
-export default () => {
+export default ({user = "Undefined"}) => {
     return (
         <View style={styles.container}>
             <View style={styles.content}>
-                <Text style={styles.title}>Matheus V Nellessen</Text>
+                <Text style={styles.title}>{user}</Text>
 
                 <TouchableOpacity style={styles.buttonUser}>
                     <Feather name="user" size={36} color={"#fff"}></Feather>

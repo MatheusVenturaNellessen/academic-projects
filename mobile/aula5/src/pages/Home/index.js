@@ -2,11 +2,17 @@ import { StyleSheet, Text, View } from "react-native";
 
 import Header from "../../components/Header/index";
 
+import Balance from "../../components/Balance/index"
+
 export default function Home() {
     return (
         <View style={Estilo.container}>
-            <Header />
-            <Text>Você acessou a page Home</Text>
+            <Header user="Matheus V Nellessen"/>
+            
+            <Balance 
+                saldo={2}
+                gasto={-999}
+            />
         </View>
     )
 }
@@ -14,7 +20,6 @@ export default function Home() {
 const Estilo = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#fff",
+        backgroundColor: "#f1f1f1",
     },
-
 })

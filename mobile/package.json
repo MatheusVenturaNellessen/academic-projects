@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
+  "dependencies": {
     "expo-cli": "^6.3.12"
   }
 }
